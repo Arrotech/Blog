@@ -1,6 +1,7 @@
 from django.db import models
 from django.utils import timezone
 from django.contrib.auth.models import User
+from django.core.urlresolvers import reverse
 
 
 class Post(models.Model):
@@ -19,6 +20,10 @@ class Post(models.Model):
     updated = models.DateTimeField(auto_now=True)
     status = models.CharField(
         max_length=10, choices=STATUS_CHOICES, default='draft')
+
+    def get_absolute_url(self):
+        """canonial url fro the model."""
+        return reverse('myblog:post_detail', args=[self.publish.year, self.publish.strftime('%m'), self.publish.strftime('%d'), self.slug])
 
 
 class Meta:
