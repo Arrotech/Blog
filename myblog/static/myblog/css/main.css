@@ -1,0 +1,95 @@
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ LAYOUT SECTION @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+
+body{
+	font-family: verdana, helvetica;
+	padding: 0px;
+	margin: 0px;
+	background-color: white;
+}
+
+/* ================== HEADER ==================== */
+
+#header{
+	padding: 20px;
+	background-color: #000000;
+	margin:	5px;
+	border-radius: 5px;
+	color: white;
+}
+
+#header img{
+	display: block;
+	border-radius: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	height: 60px;
+	width: 60px;
+}
+
+/* ================== NAVIGATION ==================== */
+
+#navbar{
+	background-color: #1bd0d3;
+	font-size: 18px;
+	margin: 5px;
+	border-radius: 5px;
+}
+
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	left: 0;
+	border-radius: 5px;
+}
+
+li{
+	 float: left; 
+}
+
+li a{
+	display: block;
+	color: #000000;
+	font-size: 16px;
+	font-weight: bolder;
+	font-style: bold;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+li a:hover{
+	background-color: #252525;
+	color: white;
+	border-radius: 5px;
+}
+
+/* ================== CONTENT ==================== */
+
+.main{
+	background-color: #e3e9e9;
+	margin: 5px;
+	padding: 20px;
+	border-radius: 5px;
+	color: #000000;
+}
+
+/* ================== FOOTER ==================== */
+
+#footer{
+	background-color: #000000;
+	margin: 5px;
+	padding: 20px;
+	border-radius: 5px;
+}
+
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ HEADING SECTION @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+
+h1{
+	text-align: center;
+}
+
+h2{
+	color: red;
+}
