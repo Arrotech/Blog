@@ -11,10 +11,9 @@ body{
 
 #header{
 	padding: 20px;
-	background-color: #000000;
+	background-color: #1bd0d3;
 	margin:	5px;
 	border-radius: 5px;
-	color: white;
 }
 
 #header img{
@@ -40,12 +39,13 @@ ul{
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
-	left: 0;
-	border-radius: 5px;
+		left: 0;
+border-radius: 5px;
 }
 
 li{
-	 float: left; 
+	display: inline;
+	/* float: left; */
 }
 
 li a{
@@ -55,7 +55,7 @@ li a{
 	font-weight: bolder;
 	font-style: bold;
 	text-align: center;
-	padding: 14px 16px;
+	padding: .2em 1em;
 	text-decoration: none;
 }
 
