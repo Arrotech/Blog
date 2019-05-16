@@ -2,7 +2,7 @@
 
 <head>
 	{% load staticfiles %}
-	<title>Learn</title>
+	<title>{% block title %}{% endblock %}</title>
 	<link rel="stylesheet" type="text/css" media="screen" href="{% static 'myblog/css/main.css' %}" />
 </head>
 
@@ -21,6 +21,8 @@
 		</ul>
 	</div>
 	<div class="main">
+			{% block content %}
+			{% endblock %}
 	</div>
 	<div id="footer"></div>
 </body>
